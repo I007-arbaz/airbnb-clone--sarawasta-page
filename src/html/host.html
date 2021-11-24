@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/host.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="banner">
+        <div class="navbar p-1">
+            <div class="brand">Sarawasta</div>
+            <button class="try-hosting">Try hosting</button>
+        </div>
+        <div class="header">
+            <p>Hosting<br> makes sarawasta,<br>sarawasta</p>
+            <button class="try-hosting">Try hosting</button>
+        </div>
+    </section>
+    <section class="hosting-option">
+        <h1>you can host <br> anything, anywhere</h1>  
+        <div class="scroll">
+            <div class="hoster">
+
+                <div class="card card1" >
+                    <div class="detail">
+                        <h2>Lorem ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis autem maxime.</p>
+                    </div>
+                </div>
+    
+                <div class="card card2"  >
+                    <div class="detail">
+                        <h2>Lorem ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis autem maxime.</p>
+                    </div>
+                </div>
+    
+                <div class="card card3" >
+                    <div class="detail">
+                        <h2>Lorem ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis autem maxime.</p>
+                    </div>
+                </div>
+    
+                <div class="card card4" >
+                    <div class="detail">
+                        <h2>Lorem ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis autem maxime.</p>
+                    </div>
+                </div>
+    
+                <div class="card card5" >
+                    <div class="detail">
+                        <h2>Lorem ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis autem maxime.</p>
+                    </div>
+                </div>
+    
+                <div class="card card6" >
+                    <div class="detail">
+                        <h2>Lorem ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis autem maxime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <h1>Host your entire place in <u style="color: black;">kolkata</u> and <span style="color: black;">earn</span> upto $200/month</h1>
+        </div>
+    </section>
+
+    <section class="query-banner">
+        <div class="content">
+            <h1>Question about hosting ?<br>ask a superhost</h1>
+            <button class="learnMore">Learn more</button>
+        </div>
+    </section>
+
+
+    <script>
+        let images = ['host1.jpg', "host2.jpg", "host4.jpg", "host5.jpg", "host6.jpg", "host1.jpg"]
+        let card = document.querySelectorAll('.card')
+        for (let i = 0; i < card.length; i++) {
+            card[i].style.backgroundImage = `url(./host/${images[i]})`
+        }
+    </script>
+</body>
+</html>
